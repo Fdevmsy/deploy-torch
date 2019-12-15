@@ -9,7 +9,6 @@ int main(int argc, const char* argv[]) {
     return -1;
   }
 
-
   torch::jit::script::Module module;
   try {
     // Deserialize the ScriptModule from a file using torch::jit::load().
